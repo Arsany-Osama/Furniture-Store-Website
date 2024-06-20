@@ -1,0 +1,1318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.offer-box {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 60px;
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.offer-box-content {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.free-delivery-icon {
+    width: 24px;
+    object-fit: contain;
+}
+
+.free-delivery-text {
+    font-family: Satoshi, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-family: Satoshi, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+    color: rgba(17, 9, 4, 0.6);
+}
+
+.nav-item {
+    font-family: Satoshi, sans-serif;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    opacity: 0.6;
+    font-size: large;
+}
+
+.nav-item:hover {
+    color: rgb(17, 17, 17);
+    opacity: 1;
+}
+
+.login-button {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: satoshi;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    transition: all 0.4s ease-out 0s;
+    border-radius: 50px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 40px 10px 70px);
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.luxurious-comfort {
+    font-family: Satoshi, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    padding: 30px 30px 1px;
+}
+
+.product-description {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 10px 30px 30px;
+}
+
+.design-image {
+    width: 100%;
+}
+
+#category-section {
+    color: rgb(0, 0, 0);
+    font-family: satoshi;
+    font-size: 70px;
+    font-weight: 400;
+    margin-left: 37px;
+    padding: 32px;
+}
+
+.image-category {
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 40px 10px 70px);
+    width: 355px;
+    height: 532.5px;
+}
+
+.btn {
+    border: none;
+    font-size: 25px;
+    font-family: satoshi;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: rgb(17, 17, 17) 0px 0px 0px 0px inset;
+    transition: all 0.4s ease-out 0s;
+    padding: 20px 30px;
+    position: relative;
+    margin: -79px 4% 4%;
+}
+
+.hover {
+    box-shadow: rgb(17, 17, 17) 210px 0px 0px 0px inset;
+    color: rgb(245, 245, 245);
+}
+
+#services {
+    color: rgb(245, 245, 245);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#services-section {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#hr1 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#hr2 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#hr3 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#one {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#two {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#three {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#four {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 94px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#restroom {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#dinning {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#livingroom {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+#bedroom {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+.products-section-title {
+    color: rgb(0, 0, 0);
+    font-family: satoshi;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 37px;
+    padding: 32px;
+}
+
+.product {
+    margin: 2%;
+    /* padding: 5%; */
+    background: rgb(241, 241, 241);
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    width: 29%;
+    background: linear-gradient(45deg, white, #f0f8ff);
+    box-shadow: 0px 0px 2px 0px #007ce842;
+    border: 1px solid #bcaaa45c;
+}
+
+.product:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+
+.responsive-image {
+    width: -webkit-fill-available;
+    height: 344px;
+    object-fit: contain;
+    background: #d7d2d040;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 30px;
+}
+
+.product-name {
+    padding: 9px 5%;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.price {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    padding: 9px 5%;
+}
+
+.product-category {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 9px 5%;
+}
+
+.reviews {
+    background: rgb(17, 17, 17);
+    border-radius: 0px;
+    display: flex;
+    padding: 4% 5%;
+    gap: 35px;
+    align-items: center;
+}
+
+#heading {
+    font-family: "Cabinet Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 74px;
+    font-feature-settings: "pnum", "onum";
+    color: rgb(255, 255, 255);
+}
+
+#subheading {
+    font-family: "Cabinet Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    font-feature-settings: "pnum", "onum";
+    color: rgb(255, 255, 255);
+}
+
+#review1 {
+    background: linear-gradient(301deg, #252525, black 401px);
+    box-shadow: rgba(0, 0, 0, 0.25) 30px 20px 70px;
+    border-radius: 30px;
+    height: -webkit-fill-available;
+    box-shadow: -36px 35px 122px -9px #424242;
+}
+
+#review2 {
+    background: linear-gradient(301deg, #252525, black 401px);
+    box-shadow: rgba(0, 0, 0, 0.25) 30px 20px 70px;
+    border-radius: 30px;
+    height: -webkit-fill-available;
+    box-shadow: 43px -35px 139px -7px #424242;
+}
+
+#review1 img {
+    object-fit: fill;
+    border-radius: 30px 30px 0 0;
+    width: 413px;
+    height: 401px;
+}
+
+#review1 h1 {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgb(255 255 255);
+    margin: 1% 4%;
+    letter-spacing: 2px;
+}
+
+#review1 h3 {
+    font-family: "Cabinet Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 37px;
+    color: rgb(255 255 255);
+    width: max-content;
+    padding: 1% 4% 3%;
+    margin: 1% 4%;
+}
+
+#review2 img {
+    border-radius: 30px 0px;
+    width: 413px;
+    object-fit: fill;
+    border-radius: 30px 30px 0 0;
+    width: 413px;
+    height: 401px;
+}
+
+#review2 h1 {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
+    margin: 1% 4%;
+    letter-spacing: 2px;
+}
+
+#review2 h3 {
+    font-family: "Cabinet Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 37px;
+    color: rgb(255 255 255);
+    width: max-content;
+    padding: 1% 4% 3%;
+    margin: 1% 4%;
+}
+
+.about-title {
+    font-family: "Cabinet Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 87px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+
+.us {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    margin-left: 3%;
+}
+
+.team {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    margin-left: 3%;
+}
+
+#arrow {
+    border: 1px solid rgb(0, 0, 0);
+    animation-duration: auto;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.aboutus {
+    padding: 5%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.rect {
+    background: rgb(17, 17, 17);
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rect p {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+#footer-content {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+}
+
+#footer-socials {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#footer-contact {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 205%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rect h3 {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.flex-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5% 5% 5% 38%;
+    overflow-x: auto;
+}
+
+.flex-home::-webkit-scrollbar {
+    width: 0px;
+}
+
+.flex-home::-webkit-scrollbar-track {
+    background: rgb(240, 248, 255);
+}
+
+.flex-home::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 248, 255);
+    border-radius: 4px;
+}
+
+.flex-home::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(240, 248, 255);
+}
+
+.sign-button {
+    padding: 10px 37px;
+    font-weight: bolder;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 41px;
+    cursor: pointer;
+    font-family: satoshi;
+    letter-spacing: 2px;
+    font-size: x-large;
+    background: linear-gradient(45deg, black, rgb(77, 77, 77));
+    color: white;
+    box-shadow: white 0px 0px 0px 3px inset;
+    text-shadow: rgb(67, 67, 67) -2px 0px 3px;
+}
+
+.Purchas-button {
+    padding: 10px 37px;
+    font-weight: bolder;
+    /* border: 2px solid rgb(37, 37, 37); */
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: satoshi;
+    letter-spacing: 2px;
+    font-size: 30px;
+    background: linear-gradient(45deg, black, rgb(77, 77, 77));
+    color: white;
+    /* box-shadow: white 0px 0px 0px 3px inset; */
+    text-shadow: rgb(67, 67, 67) -2px 0px 3px;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 5%;
+    text-align: center;
+    justify-items: stretch;
+}
+
+.card-review {
+    display: grid;
+    justify-items: center;
+}
+
+.card {
+    width: -webkit-fill-available;
+    height: 666px;
+    border-radius: 4px;
+    /* background: rgb(240, 248, 255); */
+    display: flex;
+    gap: 5px;
+    padding: 2% 4%;
+    font-size: xx-large;
+    font-family: Satoshi;
+}
+
+.card p {
+    height: inherit;
+    flex: 1 1 0%;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.5s ease 0s;
+    background: rgb(240, 248, 255);
+    border-right: 2px solid rgba(129, 129, 129, 0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p:hover {
+    flex: 4 1 0%;
+}
+.sign-button:hover {
+    background: radial-gradient(white, transparent);
+    color: black;
+    text-shadow: 0 0 black;
+}
+.Purchas-button:hover {
+    box-shadow: inset 4px -20px 12px -6px #EFEBE9;
+}
+.card p span {
+    min-width: 14em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all 0.5s ease 0s;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.1em;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: larger;
+}
+
+.card p:hover span {
+    transform: rotate(0deg);
+}
+
+.col-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.col-home h2 {
+    color: rgb(0, 0, 0);
+    font-family: satoshi;
+    font-size: 70px;
+    font-weight: 400;
+    margin-left: 37px;
+    padding: 32px;
+}
+
+.card p label {
+    color: rgba(63, 62, 62, 0.796);
+    transform: rotate(0deg);
+    margin: 0px;
+    position: relative;
+    right: -292px;
+    top: 298px;
+    font-size: larger;
+}
+
+
+.all-Product-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* gap: 10px; */
+    align-items: center;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 20rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: -11px;
+    left: 24px;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 5px 0 0 3.85rem;
+    color: #282936;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    width: max-content;
+    font-style: normal;
+}
+
+button:hover .circle {
+    width: 100%;
+    height: 70px;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
+
+.more {
+    margin: 1% 3%;
+}
+
+
+.col-footer {
+    font-family: satoshi;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+.example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+}
+
+.example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+}
+
+.example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.example-2 .icon-content a:hover {
+    color: white;
+}
+
+.example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"]~.tooltip {
+    background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"]~.tooltip {
+    background-color: #24262a;
+}
+
+.example-2 .icon-content a[data-social="instagram"] .filled,
+.example-2 .icon-content a[data-social="instagram"]~.tooltip {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5b51db,
+            #b33ab4,
+            #c135b4,
+            #e1306c,
+            #fd1f1f);
+}
+
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"]~.tooltip {
+    background-color: #ff0000;
+}
+
+
+.footer-content-1 {
+    display: grid;
+    /* padding: 1%; */
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 5%;
+    background: repeating-linear-gradient(8deg, black, #252525 138px);
+    color: white;
+}
+.Btn {
+    --black: #000000;
+    --ch-black: #141414;
+    --eer-black: #1b1b1b;
+    --night-rider: #2e2e2e;
+    --white: #ffffff;
+    --af-white: #ffffff;
+    --ch-white: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 39px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    box-shadow: inset rgba(0, 0, 0, 0.2) -1px -1px 20px 12px;
+    background-color: #c20000;
+    margin-left: 10px;
+  }
+  
+  .sign {
+    width: 100%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: var(--af-white);
+  }
+  .Logined{
+    display: flex;
+    display: none;
+  }
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover {
+    width: 157px;
+    border-radius: 59px;
+    transition-duration: 0.3s;
+    font-size: medium;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: 0.3s;
+    padding-left: 20px;
+  }
+  
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: 0.3s;
+    padding-right: 10px;
+  }
+  
+  .Btn:active {
+    transform: translate(2px, 2px);
+  }
+.user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  .user-profile .username {
+    font-weight: bold;
+  }
+@media screen and (max-width:1024px) {
+    #review1 img {
+        object-fit: fill;
+        border-radius: 30px 30px 0 0;
+        width: 413px;
+        height: 401px;
+    }
+
+    #review2 img {
+        object-fit: fill;
+        border-radius: 30px 30px 0 0;
+        width: 413px;
+        height: 401px;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+    .us {
+        font-size: larger;
+    }
+
+    .product {
+        width: 46%;
+    }
+
+    .team {
+        font-size: large;
+    }
+
+    .flex-home {
+        padding-left: 916px;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    .flex {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .header {
+
+        font-size: large;
+    }
+
+    .luxurious-comfort {
+
+        font-size: 50px;
+    }
+
+    .card {
+        font-size: 21px;
+    }
+
+    .card p label {
+        right: -184px;
+        top: 298px;
+    }
+
+    .products-section-title {
+        font-size: 50px;
+    }
+
+    .flex-home {
+        padding-left: 0;
+    }
+
+    #category-section {
+
+        font-size: 50px;
+    }
+
+    .col-home h2 {
+
+        font-size: 50px;
+    }
+
+    #review1 img {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    #review2 img {
+        width: -webkit-fill-available;
+        height: auto;
+
+    }
+
+    .us {
+        font-size: medium;
+    }
+
+.flex-footer {
+    font-size: 15px;
+    flex-direction: column;
+    gap: 14px;
+}
+
+    .team {
+        font-size: medium;
+    }
+
+    .rect p {
+        font-size: 40px;
+    }
+
+    .col-footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:647px) {
+    .header {
+        font-size: 17px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .luxurious-comfort {
+        font-size: 40px;
+        line-height: normal;
+        font-weight: bolder;
+        letter-spacing: 5px;
+    }
+    
+    .card {
+        font-size: 21px;
+    }
+
+    .card p label {
+        right: -184px;
+        top: 298px;
+    }
+
+.all-Product-flex {
+    flex-direction: column;
+}
+
+.product {
+    width: -webkit-fill-available;
+}
+}

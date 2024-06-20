@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/info.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="sub">
+        <h1>update</h1>
+        <p>Please fill the form below to update your account information. <br> Please add all the details required.</p>
+    </div>
+
+<form action="./../../backend/UpdateUserInfo.php" onsubmit="return validateForm()" method="POST">
+<h1>Account details</h1>
+<p>Please fill your info so we can get in touch with you.</p>
+<hr>
+
+<label for="" class="name">First Name</label> <br>
+<input class="nameinput" type="text" placeholder="Your first Name" name="fname" id="fname">
+
+<label for="" class="phone">Last Name</label> <br>
+<input class="phoneinput" type="text" placeholder="Your last Name" name="lname" id="lname">
+
+<label for="" class="email">Username</label> <br>
+<input class="emailinput" type="text" placeholder="Your Username" name="username" id="username">
+
+<label for="" class="address">Telephone</label> <br>
+<input class="addressinput" type="number" placeholder="Your phone No." name="phone" id="phone">
+<br><br>
+<label for="" class="">Telephone</label> <br>
+<input class="addressinput" type="number" placeholder="Your phone No." name="phone" id="phone">
+
+<button type="submit" class="save-btn">Save</button>
+</form>
+<script>
+    function validateForm() {
+        var fname = document.getElementById("fname").value.trim();
+        var lname = document.getElementById("lname").value.trim();
+        var username = document.getElementById("username").value.trim();
+        var phone = document.getElementById("phone").value.trim();
+        
+        if (fname === "" && lname === "" && username === "" && phone === "") {
+            alert("Please fill at least one field.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+
+</body>
+
+</html>

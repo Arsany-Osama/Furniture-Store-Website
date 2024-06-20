@@ -1,0 +1,19 @@
+[1] There Is An Entity (Admin_address) , I Forgot To Implemented It In the Database   [Done]
+
+[2] There Are Some Functions In (Database) Class (Implemented It)                     [Done]
+		(make sure the functions work well)
+
+[3] Make Interface For (database) Class And put it in Contorl Foler                   [Done]
+		the Interface Called (DatabaseContoller)
+
+[4] You Should Make getUserById() and getAdminById() Return (user , admin) respectively 
+		Instead Of Returning An Array
+		(make sure the functions work well After This Modifications)
+		(See getProductById() function to understand what i mean)
+
+[5] Implement product_category and product_inventory class (interface and class)
+
+[6] There Are Some Functions In Database Class Not Implemented (Implement it)
+
+[7] check if the email is duplicated (mark)
+

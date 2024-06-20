@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Form</title>
+    <link rel="stylesheet" href="./CSS/info.css">
+    <script>
+        function validateForm(event) {
+            // Get the form inputs
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+            var username = document.getElementById("username").value;
+            var phone = document.getElementById("phone").value;
+            var city = document.getElementById("city").value;
+            var country = document.getElementById("country").value;
+            var address = document.getElementById("address").value;
+
+            // Check if at least one input is filled
+            if (!fname && !lname && !username && !phone && !city && !country && !address) {
+                alert("Please fill at least one field to update.");
+                event.preventDefault(); // Prevent form submission
+            }
+        }
+
+        // Add event listener on form submission
+        window.onload = function() {
+            document.querySelector("form").addEventListener("submit", validateForm);
+        };
+    </script>
+</head>
+<body>
+
+    <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+            <label class="formbold-form-label formbold-form-label-2">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update at least one input
+            </label>
+          <form action="./../../backend/UpdateUserInfo.php" method="POST">
+            <div class="formbold-mb-5">
+              <label for="fname" class="formbold-form-label"> First Name </label>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="First Name"
+                class="formbold-form-input"
+              />
+            </div>
+            <div class="formbold-mb-5">
+                <label for="lname" class="formbold-form-label"> Last Name </label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Last Name"
+                  class="formbold-form-input"
+                />
+              </div>
+              <div class="formbold-mb-5">
+                <label for="username" class="formbold-form-label"> UserName </label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="UserName"
+                  class="formbold-form-input"
+                />
+              </div>
+              
+            <div class="formbold-mb-5">
+              <label for="phone" class="formbold-form-label"> Phone Number </label>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone number"
+                class="formbold-form-input"
+              />
+            </div>
+      
+            <div class="formbold-mb-5 formbold-pt-3">
+              <label class="formbold-form-label formbold-form-label-2">
+                Address Details
+              </label>
+              <div class="flex flex-wrap formbold--mx-3">
+                <div class="w-full sm:w-half formbold-px-3">
+                    <div class="formbold-mb-5">
+                      <input
+                        type="text"
+                        name="city"
+                        id="city"
+                        placeholder="Enter city"
+                        class="formbold-form-input"
+                      />
+                    </div>
+                  </div>
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name="country"
+                      id="country"
+                      placeholder="Enter country"
+                      class="formbold-form-input"
+                    />
+                  </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="w-full sm:w-half formbold-px-3">
+                  <div class="formbold-mb-5">
+                    <input
+                      type="text"
+                      name="address"
+                      id="address"
+                      placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Full Address"
+                      class="formbold-form-input"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div>
+              <button class="formbold-btn" type="submit">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>

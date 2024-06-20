@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'satoshi';
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+.sub h1 {
+    position: absolute;
+    width: 680px;
+    height: 46px;
+    left: 380px;
+    top: 70px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 46px;
+
+    text-align: center;
+
+    color: #170F49;
+}
+
+.sub p {
+    position: absolute;
+    width: 517px;
+    height: 70px;
+    left: 461.74px;
+    top: 140px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #6F6C90;
+}
+
+form {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 700px;
+    height: 808px;
+    left: 410px;
+    top: 260px;
+
+    background: #FAF8F8;
+    border: 1px solid #EFF0F7;
+    border-radius: 34px;
+}
+
+form h1 {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    left: 40px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #170F49;
+}
+
+form p {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    left: 40px;
+    top: 40px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #6F6C90;
+}
+
+form hr {
+    position: relative;
+    width: 596.26px;
+    height: 0px;
+    left: 40px;
+    top: 50px;
+
+    border: 1px solid #D9DBE9;
+}
+
+.name {
+
+    position: relative;
+    left: 40px;
+    top: 100px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #170F49;
+}
+
+.nameinput {
+    box-sizing: border-box;
+    position: relative;
+    width: 280px;
+    height: 55px;
+    left: 40px;
+    top: 115px;
+
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    padding: 20px;
+
+}
+.phone {
+    position: relative;
+    top: 180px;
+right: 245px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #170F49;
+}
+
+.phoneinput {
+    box-sizing: border-box;
+    position: relative;
+    width: 280px;
+    height: 55px;
+    left: 40px;
+    top: 180px;
+
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    padding: 20px;
+}
+.email {
+
+    position: absolute;
+    left: 40px;
+    top: 400px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #170F49;
+}
+
+.emailinput {
+    box-sizing: border-box;
+    position: relative;
+    width: 280px;
+    height: 55px;
+    left: 40px;
+    top: 240px;
+
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    padding: 20px;
+
+}
+.address {
+    position: absolute;
+    left: 40px;
+    top: 520px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #170F49;
+}
+
+.addressinput {
+    box-sizing: border-box;
+    position: relative;
+    width: 280px;
+    height: 55px;
+    left: 40px;
+    top: 300px;
+
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    padding: 20px;
+}
+
+.save-btn{
+position: relative;
+width: 90px;
+height: 50px;
+top: 450px;
+
+color: #fefefe;
+border-color: #fefefe;
+font-weight: 700;
+
+background: linear-gradient(180deg, #120071 0%, #392DCA 100%);
+box-shadow: 0px 3px 12px rgba(74, 58, 255, 0.18);
+border-radius: 55px;
+}
+
+.save-btn:hover{
+opacity: 0.85;
+}
+
+.grad1{
+    position: absolute;
+width: 536px;
+height: 536px;
+left: -300px;
+top: 700px;
+
+background: rgba(18, 0, 113, 0.3);
+filter: blur(300px);
+}
+.grad2{
+    position: absolute;
+width: 536px;
+height: 536px;
+right: -300px;
+top: 700px;
+
+background: rgba(18, 0, 113, 0.3);
+filter: blur(200px);
+}
+.grad3{
+    position: absolute;
+width: 536px;
+height: 536px;
+left: -300px;
+top: -200px;
+
+background: rgba(18, 0, 113, 0.3);
+filter: blur(200px);
+}
+.grad4{
+    position: absolute;
+width: 536px;
+height: 536px;
+right: -300px;
+top: 100px;
+
+background: rgba(18, 0, 113, 0.3);
+filter: blur(200px);
+}

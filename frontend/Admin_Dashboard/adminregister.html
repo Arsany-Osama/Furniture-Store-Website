@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style_sign.css">
+    <title>Admin Register</title>
+    <style>
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 300px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .close-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .close-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+        <br>
+        <p>Use another valid Email</p>
+        <br><br>
+        <button class="close-btn" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+        <script>
+            // Function to display the modal
+            function showModal() {
+                document.getElementById('errorModal').style.display = 'block';
+            }
+            
+            // Function to close the modal
+            function closeModal() {
+                document.getElementById('errorModal').style.display = 'none';
+            }
+            
+            // Check for the error parameter in the URL
+            if (new URLSearchParams(window.location.search).get('error') == 1) {
+                showModal();
+            }
+        </script>
+    <div class="container">
+
+        <form action="../../backend/register.php" method="post" class="form" onsubmit="return valid()">
+            <input type="hidden" name="source" value="admin.html">
+            <p class="title">Admin Register </p>
+            <p class="message">Signup now and get full access to our app. </p>
+            <div class="flex">
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="fname">
+                    <span>Firstname</span>
+                </label>
+
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="lname">
+                    <span>Lastname</span>
+                </label>
+            </div>
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="username">
+                <span>Username</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="email" class="input" name="email">
+                <span>Email</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="number" class="input" name="telephone">
+                <span>Telephone</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="address">
+                <span>Address</span>
+            </label>
+            <div class="flex">
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="city">
+                    <span>City</span>
+                </label>
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="country">
+                    <span>Country</span>
+                </label>
+            </div>
+
+            <label>
+                <input required="" placeholder="" type="password" class="input" id="p" name="ps">
+                <span>Password</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="password" class="input" id="cp" name="cps">
+                <span>Confirm password</span>
+            </label>
+            <label>
+                <span>select permissions:</span>
+                <div class="mydict">
+                    <div class="flex">
+                        <div>
+                            <input type="checkbox" id="checkbox1" name="checkbox1" value="AC">
+                            <label for="checkbox1"><span>Add Category</span></label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox2" name="checkbox2" value="RC">
+                            <label for="checkbox2"><span>Remove Category</span></label>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <input type="checkbox" id="checkbox3" name="checkbox3" value="AP">
+                            <label for="checkbox3"><span>Add Product</span></label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkbox4" name="checkbox4" value="RP">
+                            <label for="checkbox4"><span>Remove Product</span></label>
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <button class="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function valid() {
+      var checkboxes = document.querySelectorAll('.mydict input[type="checkbox"]');
+      var checked = false;
+
+      var p=document.getElementById('p').value;
+      var cp=document.getElementById('cp').value;
+  
+      for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+          checked = true;
+          break;
+        }
+      }
+  
+      if (p !== cp) {
+        alert("Password not match");
+        return false;
+      }
+      else if(!checked){
+        alert("Please select at least one permission");
+        return false;
+      }
+      else{return true;}
+      
+    }
+  </script>
