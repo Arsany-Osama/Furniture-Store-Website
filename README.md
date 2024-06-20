@@ -15,7 +15,8 @@
   <h3 align="center">Car Rental System</h3>
 
   <p align="center">
-    Advanced application on HTML, CSS, JS, PHP
+    Advanced application on HTML, CSS, JS, PHP 
+    <br/>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>With Email Verfication<<
     <br />
     <a href="https://github.com/Arsany-Osama/Furniture-Store-Website/tree/master"><strong>Explore the docs »</strong></a>
