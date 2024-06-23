@@ -11,7 +11,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center">Car Rental System</h3>
+  <h3 align="center">Furniture Store Website</h3>
 
   <p align="center">
     Advanced application on HTML, CSS, JS, PHP 
