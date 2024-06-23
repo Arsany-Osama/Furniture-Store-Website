@@ -1,5 +1,3 @@
-<a name="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
 &nbsp; &nbsp; &nbsp; &nbsp;
 [![Contributors][contributors-shield]][contributors-url]
