@@ -98,7 +98,7 @@ Ensure you have the following software installed:
 [stars-shield]: https://img.shields.io/github/stars/Arsany-Osama/Furniture-Store-Website.svg?style=for-the-badge
 [stars-url]: https://github.com/Arsany-Osama/Furniture-Store-Website/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Arsany-Osama/Furniture-Store-Website.svg?style=for-the-badge
-[issues-url]: https://github.com/Arsany-Osama/Furniture-Store-Website-Website/issues
+[issues-url]: https://github.com/Arsany-Osama/Furniture-Store-Website/issues
 [license-shield]: https://img.shields.io/github/license/Arsany-Osama/Furniture-Store-Website.svg?style=for-the-badge
 [license-url]: https://github.com/Arsany-Osama/Furniture-Store-Website/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
